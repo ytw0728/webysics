@@ -20,6 +20,7 @@
     "eslint-define-config": "^1.23.0",
     "eslint-plugin-import": "^2.28.1",
     "linters": "workspace:^",
+    "prettier": "^3.0.3",
     "typescript": "^5.2.2",
     "vite": "^4.4.9",
     "vite-plugin-html": "^3.2.0",

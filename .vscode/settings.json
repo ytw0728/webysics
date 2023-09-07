@@ -11,7 +11,8 @@
   "eslint.workingDirectories": [
     {
       "mode": "auto"
-    }
+    },
   ],
-  "eslint.nodePath": ".yarn/sdks"
+  "eslint.nodePath": ".yarn/sdks",
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
