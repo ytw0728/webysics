@@ -19,6 +19,7 @@ module.exports = defineConfig({
     rules: {
         'require-jsdoc': 'off',
         "jsdoc/require-jsdoc": 'off',
-        semi: ['error', 'never', { beforeStatementContinuationChars: "never" }]
+        semi: ['error', 'never', { beforeStatementContinuationChars: "never" }],
+        'array-bracket-newline': 'never',
     },
 });
