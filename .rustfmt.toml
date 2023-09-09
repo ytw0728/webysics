@@ -1,0 +1,3 @@
+### [reference](https://github.com/google/comprehensive-rust/blob/main/rustfmt.toml)
+# imports_granularity = "module" # Please use nightly for this setting.
+max_width = 90

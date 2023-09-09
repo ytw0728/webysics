@@ -1,0 +1,23 @@
+{
+  "name": "@webysics-monorepo/configs",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@webysics-monorepo/eslint-config": "workspace:*",
+    "@webysics-monorepo/prettier-config": "workspace:*",
+    "@webysics-monorepo/vite-config": "workspace:*",
+    "eslint": "^8.49.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-define-config": "^1.23.0",
+    "eslint-plugin-import": "*"
+  },
+  "peerDependencies": {
+    "@webysics-monorepo/eslint-config": "workspace:*",
+    "@webysics-monorepo/prettier-config": "workspace:*",
+    "@webysics-monorepo/vite-config": "workspace:*"
+  }
+}

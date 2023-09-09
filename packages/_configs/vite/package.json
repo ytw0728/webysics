@@ -1,0 +1,27 @@
+{
+    "name": "@webysics-monorepo/vite-config",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "author": "",
+    "exports": {
+        "./build": {
+            "default": "./vite.buildConfig.js",
+            "types": "./vite.d.ts"
+        },
+        "./library": {
+            "default": "./vite.libConfig.js",
+            "types": "./vite.d.ts"
+        }
+    },
+    "scripts": {
+        "lint:fix": "eslint --cache --fix \"config/**/*.{js,jsx,ts,tsx}\""
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "vite": "^4.4.9"
+    },
+    "peerDependencies": {
+        "vite": "^4.4.9"
+    }
+}

@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "./packages/apps/_example",
+    "./packages/modules/_example",
+    # etc.
+]

@@ -2,3 +2,8 @@ node_modules
 dist
 .vite
 cache
+
+
+# Added by cargo
+
+/target

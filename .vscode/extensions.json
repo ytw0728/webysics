@@ -1,6 +1,10 @@
 {
   "recommendations": [
     "arcanis.vscode-zipfs",
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    "nrwl.angular-console",
+    "bmalehorn.vscode-fish",
+    "1yib.rust-bundle",
+    "esbenp.prettier-vscode"
   ]
 }

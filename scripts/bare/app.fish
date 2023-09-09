@@ -1,0 +1,1 @@
+yarn workspace @webysics/$argv[1] $argv[2..]

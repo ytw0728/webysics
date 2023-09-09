@@ -2,9 +2,12 @@
   "name": "webysics",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "lint:fix": "eslint --cache --fix \"src/**/*.{js,jsx,ts,tsx}\"",
+    "update": "yarn dlx @yarnpkg/sdks && yarn",
+    "bare:app": "fish ./scripts/bare/app.fish",
+    "bare:mod": "fish ./scripts/bare/mod.fish",
+    "nx:app": "fish ./scripts/nx/app.fish",
+    "nx:mod": "fish ./scripts/nx/mod.fish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,7 +15,10 @@
   "license": "ISC",
   "packageManager": "yarn@3.6.3",
   "workspaces": [
-    "packages/*"
+    "packages/*",
+    "packages/**/*",
+    "!node_modules/*",
+    "!node_modules/**/*"
   ],
   "husky": {
     "hooks": {
@@ -23,9 +29,12 @@
     "*.{js,jsx,ts,tsx}": "yarn workspaces run lint:fix"
   },
   "devDependencies": {
-    "eslint": "^8.48.0",
+    "eslint": "^8.49.0",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
+    "nx": "16.8.1",
+    "nx-cloud": "latest",
+    "prettier": "^3.0.3",
     "typescript": "^5.2.2"
   }
 }
