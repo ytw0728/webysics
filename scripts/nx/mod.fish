@@ -1,0 +1,1 @@
+yarn workspace @webysics-monorepo/$argv[1] $argv[2..]

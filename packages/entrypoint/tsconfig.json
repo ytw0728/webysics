@@ -1,8 +1,0 @@
-{
-  "extends": ["../linters/tsconfig/tsconfig.json"],
-  "exclude": ["node_modules"],
-  "compilerOptions": {
-    "baseUrl": "src",
-    "types": ["@webgpu/types"]
-  }
-}

@@ -1,0 +1,8 @@
+{
+  "extends": ["../../configs/tsconfig/tsconfig.base.json"],
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "baseUrl": "src",
+    "types": ["@webgpu/types"],
+  }
+}
