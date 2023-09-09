@@ -11,3 +11,4 @@
 - [rustup v1.26.0](https://rust-lang.github.io/rustup/)
 - [rustc v1.72.0](https://www.rust-lang.org/)
 - [cargo v1.72.0](https://doc.rust-lang.org/cargo/getting-started/installation.html)
+- [rustfmt v1.6.0](https://rust-lang.github.io/rustfmt/)
