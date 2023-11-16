@@ -1,5 +1,7 @@
 # Webysics
 
+INFO: This project could be converted into an organization repository soon.
+
 ## Tools
 
 - [fish v3.6.1](https://fishshell.com/)
